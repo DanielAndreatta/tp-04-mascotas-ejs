@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nombre": "Lula",
+    "especie": "Perro",
+    "edad": 2,
+    "descripcion": "Cachorra muy activa, juguetona y sociable con otros animales.",
+    "estado": "En adopción",
+    "imagen": "/img/lula.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Romero",
+    "especie": "Gato",
+    "edad": 4,
+    "descripcion": "Gato tranquilo y cariñoso, ideal para vivir en departamentos pequeños.",
+    "estado": "Reservada",
+    "imagen": "/img/romero.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Bruno",
+    "especie": "Perro",
+    "edad": 1,
+    "descripcion": "Rescatado recientemente, necesita mucha paciencia y mimos.",
+    "estado": "En adopción",
+    "imagen": "/img/bruno.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Nina",
+    "especie": "Gato",
+    "edad": 0,
+    "descripcion": "Pequeña gatita encontrada en la calle, ya desparasitada.",
+    "estado": "Adoptada",
+    "imagen": "/img/nina.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Koda",
+    "especie": "Perro",
+    "edad": 6,
+    "descripcion": "Perro adulto, excelente guardián y compañero leal.",
+    "estado": "En adopción",
+    "imagen": "/img/koda.jpg"
+  }
+]
