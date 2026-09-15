@@ -1,0 +1,144 @@
+:root {
+    font-family: Inter, system-ui, sans-serif;
+    color: #26231f;
+    background: #f6f2eb;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: #17675d;
+    font-weight: 700;
+}
+
+.encabezado,
+.pie,
+.contenedor {
+    width: min(76rem, calc(100% - 2rem));
+    margin-inline: auto;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-block: 1rem;
+    border-bottom: 1px solid #d8d0c5;
+}
+
+.encabezado nav {
+    display: flex;
+    gap: 1rem;
+}
+
+.marca {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: #26231f;
+}
+
+.contenedor {
+    flex: 1;
+    padding-block: 3rem;
+}
+
+.hero,
+.estado,
+.detalle,
+.panel-formulario {
+    max-width: 45rem;
+    padding: 2rem;
+    border-radius: 1.25rem;
+    background: #fffdf9;
+    box-shadow: 0 1rem 2.5rem rgba(75, 63, 48, 0.08);
+}
+
+.etiqueta {
+    color: #8a4b21;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.boton,
+button {
+    display: inline-block;
+    padding: 0.75rem 1rem;
+    border: 0;
+    border-radius: 0.65rem;
+    background: #17675d;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.boton:hover,
+button:hover {
+    background: #0f4942;
+}
+
+.cabecera-pagina {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 1rem;
+}
+
+.tarjeta {
+    padding: 1.25rem;
+    border: 1px solid #d8d0c5;
+    border-radius: 0.9rem;
+    background: white;
+}
+
+.formulario {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #a79c8e;
+    border-radius: 0.5rem;
+}
+
+.formulario input:focus,
+.formulario textarea:focus,
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #f4ca76;
+}
+
+.error {
+    padding: 0.75rem 1rem;
+    border-left: 0.3rem solid #642318;
+    background: #fff0ed;
+    color: #7a271a;
+    font-weight: 700;
+}
+
+.pie {
+    padding-block: 1.25rem;
+    border-top: 1px solid #d8d0c5;
+    color: #655f57;
+}
